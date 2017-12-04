@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CryptoSwift",
+        "repositoryURL": "https://github.com/krzyzanowskim/CryptoSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "d0084e4a6fe9490b3baab3d3c2aad58d3a852daf",
+          "version": "0.8.0"
+        }
+      },
+      {
+        "package": "SwiftServerHttp",
+        "repositoryURL": "https://github.com/swift-server/http.git",
+        "state": {
+          "branch": null,
+          "revision": "f8516cc7252cc1e4a9f31ac5fa35175acdd2f47d",
+          "version": "0.1.0"
+        }
+      },
+      {
+        "package": "Swifter",
+        "repositoryURL": "https://github.com/httpswift/swifter.git",
+        "state": {
+          "branch": null,
+          "revision": "df4353719fe88298857ee126c312f9d4684f90fd",
+          "version": "2.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
