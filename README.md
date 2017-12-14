@@ -1,6 +1,6 @@
 # Blockchain swift example
 
-A blockchain example in 100 lines of code
+A blockchain example
 
 ## What is blockchain
 
@@ -30,11 +30,29 @@ open blockchain-swift-example.xcodeproj
 Get list of blockchain blocks
 
 ```
-curl http://localhost:8080/getBlocks
-```
-Add block to list of blockchain
-
-```
-curl http://localhost:8080/addBlock?data=testData
+curl http://localhost:8080/blocks
 ```
 
+Get list of transactions
+
+```
+curl http://localhost:8080/transactions
+```
+
+Mine block
+
+```
+curl http://localhost:8080/mine
+```
+
+Create transaction
+
+```
+curl http://localhost:8080/transaction?actor=NAME&target=NAME&count=NUMBER
+```
+
+Validate blocks in blockchain
+
+```
+curl http://localhost:8080/validateBlockchain
+```
